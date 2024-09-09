@@ -8,9 +8,8 @@ namespace project2
         {
             Console.WriteLine("1) How much money would you make if you were to work for 8 hours while earning $21/hour?");
 
-            Console.WriteLine("$" + (8 * 21));
-            Console.WriteLine("");
-            //+.ToString(); idk how to use it...
+            Console.WriteLine((8 * 21).ToString("C"));
+            Console.WriteLine("")
 
             Console.WriteLine("2) How much would a dozen (12) eggs cost if one egg is 6$?");
             Console.WriteLine("$" + (6 * 12));
